@@ -94,7 +94,7 @@ tr:last-child td { border-bottom: 0; }
 .runner-title span { color: var(--runner-green); }
 .runner-description { max-width: 270px; margin: 0 0 2px; color: #9aa69b; font: 12px/1.7 var(--sans); }
 .runner-frame { overflow: hidden; border: 1px solid #36463a; background: #142119; box-shadow: 0 18px 60px #0006; }
-.runner-hud { display: flex; min-height: 47px; align-items: center; justify-content: space-between; gap: 16px; padding: 0 18px; border-bottom: 1px solid #314035; background: #1b2a20; color: #9aa99b; font-size: 9px; letter-spacing: .7px; }
+.runner-hud { display: flex; min-height: 47px; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding: 9px 18px; border-bottom: 1px solid #314035; background: #1b2a20; color: #9aa99b; font-size: 9px; letter-spacing: .7px; }
 .runner-hud strong { margin-left: 6px; color: var(--runner-green); font-size: 11px; font-weight: 500; }
 .runner-progress { width: min(30vw, 190px); height: 5px; overflow: hidden; background: #354539; }
 .runner-progress i { display: block; height: 100%; background: var(--runner-green); transition: width .12s linear; }
@@ -107,6 +107,8 @@ tr:last-child td { border-bottom: 0; }
 .runner-start:hover { background: #c9ff8b; }
 .runner-instructions { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 22px; padding: 15px 18px; border-top: 1px solid #314035; color: #a1ada2; font-size: 9px; letter-spacing: .35px; }
 .runner-instructions kbd { display: inline-block; min-width: 24px; margin: 0 3px; padding: 5px 6px; border: 1px solid #526252; background: #253328; color: #e9f1e4; font: 9px var(--mono); text-align: center; }
+.runner-attack { margin: 0 4px; padding: 5px 8px; border: 1px solid #526252; background: #253328; color: #e9f1e4; cursor: pointer; font: 9px var(--mono); }
+.runner-attack:hover { border-color: var(--runner-green); color: var(--runner-green); }
 .runner-tip { margin: 16px 0 0; color: #78877b; font: 11px/1.6 var(--sans); text-align: center; }
 
 @media (max-width: 920px) {
