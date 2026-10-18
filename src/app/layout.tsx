@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ibarra Instruments | Registro",
-  description: "Registro e inventario de instrumentos musicales.",
+  title: "Ibarra Instruments | Registro y Pixel Runner",
+  description: "Registro de instrumentos y juego de plataformas Pixel Runner.",
 };
 
 export default function RootLayout({

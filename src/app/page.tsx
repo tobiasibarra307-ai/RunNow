@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 type InstrumentRecord = {
   id: number;
@@ -70,7 +71,7 @@ export default function Home() {
           <span className="brand-mark">II</span>
           <span>IBARRA <strong>INSTRUMENTS</strong></span>
         </a>
-        <span className="topbar-label"><i /> REGISTRO DE INVENTARIO</span>
+        <Link className="topbar-label" href="/juego"><i /> JUGAR PIXEL RUNNER ↗</Link>
       </header>
 
       <section className="intro" id="inicio">
