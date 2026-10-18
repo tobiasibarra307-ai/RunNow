@@ -312,8 +312,8 @@ export default function PixelRunner() {
   return (
     <main className="runner-shell">
       <header className="runner-header">
-        <Link className="runner-brand" href="/"><span>II</span> IBARRA INSTRUMENTS</Link>
-        <Link className="runner-back" href="/">← VOLVER AL INVENTARIO</Link>
+        <Link className="runner-brand" href="/instrumentos"><span>II</span> IBARRA INSTRUMENTS</Link>
+        <Link className="runner-back" href="/instrumentos">← VOLVER AL INVENTARIO</Link>
       </header>
 
       <section className="runner-main" aria-labelledby="runner-title">

@@ -1,10 +1,10 @@
 # Ibarra Instruments
 
-Aplicación Next.js para registrar instrumentos, asociarlos con un usuario y consultar el inventario. Incluye Pixel Runner, un juego de plataformas disponible en `/juego`. Las fotos se almacenan en Vercel Blob y los datos en PostgreSQL de Neon, disponible como integración de Vercel Marketplace.
+Aplicación Next.js con Pixel Runner como página principal y un registro de inventario de instrumentos en `/instrumentos`. Las fotos se almacenan en Vercel Blob y los datos en PostgreSQL de Neon, disponible como integración de Vercel Marketplace.
 
 ## Pixel Runner
 
-Muévete con las flechas izquierda/derecha o `A`/`D`; salta con la barra espaciadora o la flecha arriba. Cruza los huecos, recoge monedas y llega a la bandera.
+El juego está disponible en `/` y `/juego`. Muévete con las flechas izquierda/derecha o `A`/`D`; salta con la barra espaciadora o la flecha arriba. Cruza los huecos, recoge monedas y llega a la bandera.
 
 ## Desarrollo local
 
